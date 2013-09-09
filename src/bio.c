@@ -82,6 +82,7 @@ struct bio_job {
     void *arg1, *arg2, *arg3;
 };
 
+/*Handler */
 void *bioProcessBackgroundJobs(void *arg);
 
 /* Make sure we have enough stack to perform all the things we do in the
